@@ -136,21 +136,23 @@ footer {
 <section>
     <h2>📩 Prenota Ora</h2>
 
-    <form action="https://formsubmit.co/fabio.cavalieri@libero.it" method="POST">
+ <form action="https://formsubmit.co/fabio.cavalieri@libero.it" method="POST">
 
-        <input type="text" name="nome" placeholder="Nome" required>
-        <input type="text" name="cognome" placeholder="Cognome" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <input type="tel" name="telefono" placeholder="Telefono / Cellulare" required>
+    <input type="text" name="Nome" placeholder="Nome" required>
+    <input type="text" name="Cognome" placeholder="Cognome" required>
+    <input type="email" name="Email" placeholder="Email" required>
+    <input type="tel" name="Telefono" placeholder="Telefono" required>
 
-        <input type="date" name="data" required>
-        <input type="time" name="ora" required>
+    <input type="date" name="Data" required>
+    <input type="time" name="Ora" required>
 
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://carosello75.github.io/Sito-web-prova/">
+    <!-- CONFIG -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="Nuova prenotazione dal sito">
+    <input type="hidden" name="_template" value="table">
 
-        <button type="submit">Invia richiesta</button>
-    </form>
+    <button type="submit">Invia richiesta</button>
+</form>
 
 </section>
 
